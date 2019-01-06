@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+    
+}
+
+body {
+    max-width: 1280px;
+    margin: auto;
+}
+
+h1 {
+    
+}
+
+h3 {
+    
+}
+
+p {
+    
+}
+
+a {}
+
+/* ------ HEADER SECTION ------ */
+
+header {
+    display: flex;
+}
+
+#logo {
+    flex-grow: 2;
+    align-items: center;
+    height: 32px;
+    padding-left: 24px;
+}
+
+.logo_name_1 {
+    
+}
+
+.logo_name_2 {
+    
+}
+
+#top_menu {
+    flex-grow: 5;
+    align-content: flex-end;
+    align-items: center;  
+    padding-right: 24px;
+}
+
+ul li {
+    display: inline-flex;
+}
+
+.li {
+    padding-right: 16px;
+}
+
+/* ------- BANNER CONTENT ------ */
+
+#main_content {
+    display: flex;
+}
+
+#banner {
+    display: flex;
+    flex-direction: row;
+    background-color: #d8d8d8;
+}
+
+.left {
+    width: 60%;
+    height: auto;
+    padding-left: 24px;
+}
+
+.right {
+    width: 40%;
+    height: auto;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    
+    
+}
+
+/* ------- SECTION ONE CONTENT ------ */
+
+#section_one {
+    display: flex;
+    flex-direction: row;
+    background-color: #f3f5f5;
+}
+
+.practice {
+    flex-direction: column;
+}
+
+.name {}
+
+.hightlights {
+    flex-direction: column;
+}
+
+.hightlights .one {}
+
+.hightlights .two {}
+
+.hightlights .three {}
+
+
+/* ------- SECTION TWO CONTENT ------ */
+
+
+
+
