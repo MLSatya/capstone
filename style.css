@@ -120,6 +120,47 @@ ul li {
 
 /* ------- SECTION TWO CONTENT ------ */
 
+#section_two {
+    display: flex;
+    flex-direction: row;
+    background-color: #d8d8d8;
+}
+
+.center {}
+
+.learning {
+    flex-direction: column;
+}
+
+.capitalization {
+    text-transform: uppercase;
+}
+
+.learning .box {}
 
 
+/* ------- SECTION THREE CONTENT ------ */
 
+#section_three {
+    display: flex;
+    flex-direction: row;
+    background-color: #f3f5f5;
+
+}
+.reimagine {
+    
+}
+
+.documentation {
+    
+}
+
+/* ------- FOOTER CONTENT ------ */
+
+footer {
+    display: flex;
+    border-top:  #f3f5f5;
+}
+.copyright {}
+
+#footer_menu {}
