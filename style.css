@@ -134,6 +134,14 @@ ul li {
    
 }
 
+.button:hover {
+    background-color: white;
+}
+
+.button a:hover {
+    color: #4a4a4a;
+}
+
 /* ------- SECTION ONE CONTENT ------ */
 
 #section_one {
@@ -184,7 +192,7 @@ ul li {
 
 .highlights h3 {
     text-align: left;
-    padding: 8px;
+    padding: 10% 0 2% 0;
 }
 
 .highlights img {
@@ -274,8 +282,9 @@ ul li {
     max-width: 60%;
 }
 
-.reimagine img {
-    max-width: 100%;
+.reimagine video {
+    max-width: 90%;
+    padding: 32px 24px 24px 24px;
 }
 .reimagine h3 {
     padding: 0px 24px 24px 24px;
@@ -287,14 +296,38 @@ ul li {
     letter-spacing: 2px;
 }
 .documentation {
-    display: flex;
+     display: flex;
     flex-direction: column;
+    max-width: 40%;
+    border-left: solid 1px #ebeded;
 }
 
+.documentation img {
+    float: left;
+    max-width: 50%;
+    padding: 16px;
+}
+
+.documentation h3 {
+    text-align: left;
+    padding: 10% 0 2% 0;
+}
+
+.documentation p {
+    padding: 8px;
+}
+
+.hightlights_four {
+    background-color: #d8d8d8;
+}
+
+.highlights_five {
+    
+}
 /* ------- FOOTER CONTENT ------ */
 
 footer {
-    display: flex;
+    height: 72px;
     border-top: 1px solid #d8d8d8;
     border-left: 1px solid #979797;
     border-right: 1px solid #979797;
@@ -302,10 +335,16 @@ footer {
 }
 .copyright {
     padding:16px 24px 32px 24px;
-    max-width: 60%;
+    float: left;
 }
 
 #footer_menu {
-    float: right;
     padding:16px 24px 32px 24px;
+    float: right;
+}
+
+
+@media only screen and (max-width: 480px) {
+    
+    
 }
