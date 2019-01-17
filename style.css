@@ -20,6 +20,7 @@ h1 {
 h3 {
     font-family: "Arial", "Sans-erif";
     font-size: 1.5em;
+    font-weight: 600;
     color: #4a4a4a;
 }
 
@@ -31,6 +32,7 @@ h4 {
 
 p {
     font-family: "Arial", "Sans-erif";
+    font-weight: 400;
     font-size: .9em;
     color: #6f6f6f;
 }
@@ -101,7 +103,8 @@ ul li {
 }
 
 #banner img {
-    max-width: 100%;
+    max-width: 90%;
+    padding: 32px 24px;
 }
 
 .left_banner {
@@ -114,17 +117,21 @@ ul li {
     flex-direction: column;
     height: auto;
     padding-top: 180px;
+    padding-right: 72px;
 }
 
 .button {
     width: 70%;
     background-color: #4a4a4a;
+    padding: 12px 16px;
+    text-align: center;
+}
+
+.button a {
     color: whitesmoke;
     font-family: "Arial", "Sans-serif";
     font-size: 1em;
-    padding: 12px 16px;
-    text-align: center;
-    
+   
 }
 
 /* ------- SECTION ONE CONTENT ------ */
@@ -132,7 +139,7 @@ ul li {
 #section_one {
     width: 100%;
     display: flex;
-    background-color: #f3f5f5;
+    background-color: white;
     border-left: 1px solid #979797;
     border-right: 1px solid #979797;
 }
@@ -142,10 +149,23 @@ ul li {
 }
 
 .practice img {
-    max-width: 100%;
+    max-width: 90%;
+    padding: 32px 24px;
 }
 
-.name {}
+.practice h1 {
+    padding: 0px 24px 24px 24px;
+}
+
+.practice p {
+    padding: 0px 24px 24px 24px;
+    line-height: 1.1em;
+    letter-spacing: 2px;
+}
+
+.name {
+    
+}
 
 .highlights {
     display: flex;
@@ -154,32 +174,35 @@ ul li {
     border-left: solid 1px #ebeded;
 }
 
-.hightlights p {
+.highlights p {
+    padding: 8px;
+}
+
+.highlights a {
+    color: blue;
 }
 
 .highlights h3 {
+    text-align: left;
+    padding: 8px;
 }
 
 .highlights img {
-    padding-left: 16px;
+    float: left;
+    max-width: 35%;
+    padding: 16px;
 }
 
 .highlights_one  {
-    display: flex;
-    max-width: 69%;
-    padding: 0;
+     border-top: solid 1px #ebeded;
 }
 
 .highlights_two  {
-    display: flex;
-    padding: 0;
     border-top: solid 1px #ebeded;
     border-bottom: solid 1px #ebeded;
 }
 
 .highlights_three  {
-    display: flex;
-    padding: 0;
     background-color: #d8d8d8;
 }
 
@@ -187,37 +210,46 @@ ul li {
 /* ------- SECTION TWO CONTENT ------ */
 
 #section_two {
-    max-width: 100%;
     background-color: #d8d8d8;
-    padding: 32px 72px;
+    padding: 32px 0;
     border-left: 1px solid #979797;
     border-right: 1px solid #979797;
 }
 
 #section_two h1 {
     text-align: center;
-    padding: 32px 0px;
+    padding:32px 0 32px 0;
 }
 
 .learning {
-    display: flex;
-    display: inline-block;
-    
+    padding: 0 10%;
 }
 
 .capitalization {
     text-transform: uppercase;
+    padding: 8px 0;
 }
 
-.learning .box {
+.box {
+    display: inline-table;
     background-color: white;
-    width: 33%;
-    height: 300px;
-    text-align: center;
+    width: 29%;
+    margin: 16px;
+    height: 320px;
+    text-align: left;
 }
 
-.learning .box img {
+.box img {
     max-width: 100%;
+}
+
+.box h3 {
+    padding: 16px 0 8px 16px;
+}
+
+.box p {
+    padding-left: 16px;
+    line-height: 1.5em;
 }
 
 
@@ -245,7 +277,15 @@ ul li {
 .reimagine img {
     max-width: 100%;
 }
+.reimagine h3 {
+    padding: 0px 24px 24px 24px;
+}
 
+.reimagine p {
+    padding: 0px 24px 24px 24px;
+    line-height: 1.1em;
+    letter-spacing: 2px;
+}
 .documentation {
     display: flex;
     flex-direction: column;
@@ -255,7 +295,7 @@ ul li {
 
 footer {
     display: flex;
-    border-top: 1px solid #f3f5f5;
+    border-top: 1px solid #d8d8d8;
     border-left: 1px solid #979797;
     border-right: 1px solid #979797;
     border-bottom: 1px solid #979797;
